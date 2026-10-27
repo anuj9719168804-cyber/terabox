@@ -27,8 +27,8 @@ app = Flask(__name__, template_folder="templates")
 app.secret_key = os.environ.get("SECRET_KEY", "terastream_secure_session_key_2026")
 PORT = int(os.environ.get("PORT", 8080))
 
-ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "mahabir")
-ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "mk@123")
+ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "akempire")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "ak@empire")
 DB_FILE = os.path.join(os.path.dirname(__file__), "terastream.db")
 
 # Lifetime Cloud Database (PostgreSQL) configuration
