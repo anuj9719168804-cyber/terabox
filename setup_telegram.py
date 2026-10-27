@@ -5,8 +5,8 @@ import asyncio
 from telethon import TelegramClient
 from telethon.tl.types import Channel, Chat
 
-API_ID = int(os.environ.get("TELEGRAM_API_ID", 37318289))
-API_HASH = os.environ.get("TELEGRAM_API_HASH", "c5357ba72831f3345f35683634b6409b")
+API_ID = int(os.environ.get("TELEGRAM_API_ID", 33029767))
+API_HASH = os.environ.get("TELEGRAM_API_HASH", "5d897bed11bc8b062a12f6c1c3c5360a")
 SESSION_NAME = os.path.join(os.path.dirname(__file__), "telegram_session")
 CONFIG_FILE = os.path.join(os.path.dirname(__file__), "telegram_config.json")
 
